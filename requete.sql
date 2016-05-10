@@ -1,0 +1,12 @@
+DROP DATABASE IF EXISTS LeBonCoin;
+CREATE DATABASE LeBonCoin;
+CREATE TABLE LeBonCoin.Annonces 
+(
+    id INT(11) AUTO_INCREMENT,
+    title VARCHAR(255) NOT NULL,
+    description VARCHAR(255) NOT NULL,
+    picture VARCHAR(255) NOT NULL,
+    price INT(11) NULL,
+    created_date DATETIME  NOT NULL,
+    PRIMARY KEY (id)
+) ENGINE=INNODB;

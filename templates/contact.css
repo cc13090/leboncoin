@@ -1,0 +1,30 @@
+section#contact-section, aside#contact-aside{
+    height:365px;
+    padding:5px;
+}
+
+section#contact-section{
+    width: 60%;
+    height:390px;
+}
+
+/* ---------- media queries pour appareil < 992px ------------- */
+@media only screen and (max-width: 992px) {
+    section#contact-section{
+        width: 93%;
+    }
+}
+
+/* ---------- media queries pour appareil < 480px ------------- */
+
+@media only screen and (max-width: 480px) {
+    section#contact-section{
+        display: block;
+        width: 95%;
+    }
+
+    section#test-deroulant{
+        height:270px;
+    }
+}
+/* ------------------------------------------------------------ */
